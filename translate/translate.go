@@ -24,7 +24,7 @@ import (
 	"github.com/tidwall/gjson"
 )
 
-const baseURL = "https://www2.deepl.com/jsonrpc"
+const baseURL = "https://www3.deepl.com/jsonrpc"
 
 // makeRequest makes an HTTP request to DeepL API
 func makeRequest(postData *PostData, urlMethod string, proxyURL string, dlSession string) (gjson.Result, error) {
