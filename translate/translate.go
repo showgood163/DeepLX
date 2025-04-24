@@ -31,7 +31,7 @@ import (
 
 // makeRequest makes an HTTP request to DeepL API
 func makeRequest(postData *PostData, proxyURL string, dlSession string) (gjson.Result, error) {
-	urlFull := "https://www2.deepl.com/jsonrpc"
+	urlFull := "https://www3.deepl.com/jsonrpc"
 	postStr := formatPostString(postData)
 
 	// Create a new req client
